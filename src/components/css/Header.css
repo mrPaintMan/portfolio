@@ -1,20 +1,21 @@
 div {
     color: #b8b8b8;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .backPic {
     display: block;
-    position: relative;
+    position: absolute;
     z-index: 0;
     top:0px;
+    min-height: 100%;
     width: 100%;
-    height: auto;
     opacity: 0;
     transition: opacity 0.3s;
 }
 
 .backPic:hover {
-    opacity: 0.05;
+    opacity: 0.1;
     transition: opacity 0.3s;
 }
 
@@ -27,9 +28,11 @@ div {
     justify-content: center;
     width: 60%;
     height: 500px;
+    z-index: 1;
+    top: 20%;
 
     margin: auto;
-    background-color: #383838;
+    background-color: #131313;
 }
 
 .menu_item {
@@ -40,7 +43,7 @@ div {
 
 .header {
     position: relative;
-    max-height: 100vh;
+    height: 100vh;
     overflow: hidden;
 }
 

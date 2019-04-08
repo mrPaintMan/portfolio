@@ -5,7 +5,14 @@ import BackgroundPic from "../assets/background.png"
 import mePic from "../assets/me.png"
 
 class Header extends React.Component {
+    constructor(props) {
+        super(props);
+        this.state = {hover: false};
+    }
+
     
+
+
     render() {
         return (
             <div className="header">
