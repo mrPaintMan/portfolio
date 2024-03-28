@@ -1,5 +1,6 @@
 .container {
   min-height: 100vh;
+  min-width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -8,25 +9,104 @@
 
 .header {
   display: flex;
+  flex-direction: row;
   align-items: center;
   justify-content: center;
-  background-color: #901e1e;
+  width: 90%;
+  height: 80vh;
+  color: white;
+}
+
+.headerText {
+  padding-top: 30px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.bigName {
+  font-size: 48px;
+
+}
+
+.headerBtns {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
   width: 100%;
-  padding: 30px;
+  height: 50px;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.btn {
+  background-color: #FF981F;
+  padding: 8px 30px;
+  margin: 0px 15px;
+  min-width: 120px;
+  text-align: center;
+
+}
+
+.headerp {
+  margin-top: 100px;
+  text-align: center;
+  max-width: 400px;
 }
 
 .pic {
-  border-radius: 50%;
+  width: auto;
+  text-align: center;
+  margin-left: 50px;
 }
 
-.content {
+.aboutme {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  width: 70%;
+  color: white;
+  margin-top: 100px;
+  width: 70vw;
 }
 
-.text {
-  margin: 10px;
+.aboutMeText {
+  text-align: center;
+  min-width: 220px;
+  font-size: 32px;
+  color: white;
+  border-bottom: 3px solid #FF981F;
+  margin-bottom: 50px;
+}
+
+.aboutp {
+  text-align: center;
+}
+
+.section {
+  position: relative;
+  padding-top: 80px;
+  width: 100%;
+  height: 680px;
+  overflow: visible;
+  color: white;
+}
+
+.skewedCCW {
+  position: absolute;
+  left: -10%;
+  height: 100%;
+  width: 120%;
+  transform: rotateZ(-3deg);
+  background-color: #6C6C6C;
+}
+
+.skewedCW {
+  position: absolute;
+  left: -10%;
+  height: 100%;
+  width: 120%;
+  transform: rotateZ(3deg);
+  background-color: #797979;
 }

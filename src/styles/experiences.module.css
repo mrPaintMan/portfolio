@@ -1,0 +1,45 @@
+.cmpContainer {
+  margin-top: 70px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.companies {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 80%;
+}
+
+.selected {
+  height: 100px;
+  width: auto;
+  padding: 10px 20px;
+  border-bottom: 3px solid #FF981F;
+}
+
+.logo {
+  height: 100px;
+  width: auto;
+  padding: 10px 20px;
+  border-bottom: 3px solid transparent;
+}
+
+.logo:hover {
+  border-bottom: 3px solid white;
+}
+
+.cmpMeta {
+  padding: 100px 0px 10px 10px;
+  width: 50%;
+  font-weight: bold;
+}
+
+.cmpText {
+  width: 50%;
+  text-align: center;
+}

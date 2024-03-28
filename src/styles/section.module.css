@@ -1,0 +1,45 @@
+.CCW {
+  position: absolute;
+  left: -10%;
+  height: 100%;
+  width: 120%;
+  transform: rotateZ(-3deg);
+  background-color: #6C6C6C;
+  z-index: 0;
+}
+
+.CW {
+  position: absolute;
+  left: -10%;
+  height: 100%;
+  width: 120%;
+  transform: rotateZ(3deg);
+  background-color: #797979;
+  z-index: 0;
+}
+
+.positiveZ {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  z-index: 1;
+}
+
+.containerCCW {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.containerCW {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.title {
+  font-size: 32px;
+  margin: 10px 100px;
+  padding: 0px 10px;
+  border-bottom: 3px solid #FF981F;
+}

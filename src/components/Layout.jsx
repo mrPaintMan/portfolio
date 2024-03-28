@@ -1,8 +1,8 @@
 import Head from "next/head";
-import { Lato } from "next/font/google";
+import { Inter } from "next/font/google";
 import styles from "@/styles/layout.module.css";
 
-const lato = Lato({ subsets: ["latin"], weight: ['400'] });
+const inter = Inter({ subsets: ["latin"], weight: ['300'] });
 
 export default function Layout({ title, children, className }) {
   return (
@@ -13,7 +13,7 @@ export default function Layout({ title, children, className }) {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main className={`${styles.main} ${lato.className}`}>
+      <main className={`${styles.main} ${inter.className}`}>
         {children}
       </main>
     </>
