@@ -55,7 +55,7 @@ export default function Experiences(props) {
       <div className={styles.cmpContainer}>
         <div className={styles.companies}>
           {companies.map(({ ImageComponent }, i) =>
-            <ImageComponent onClick={() => setSelected(i)} className={selected === i ? styles.selected : styles.logo} />
+            <ImageComponent key={i} onClick={() => setSelected(i)} className={selected === i ? styles.selected : styles.logo} />
           )}
         </div>
         <div className={styles.cmpMeta}>
