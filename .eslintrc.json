@@ -1,3 +1,30 @@
 {
-  "extends": "next/core-web-vitals"
+  "extends": [
+      "standard",
+      "plugin:react/recommended",
+      "next"
+  ],
+  "parserOptions": {
+      "ecmaFeatures": {
+          "jsx": true
+      }
+  },
+  "plugins": [
+      "react"
+  ],
+  "ignorePatterns": [
+      "**/*.dep.js"
+  ],
+  "rules": {
+      "react/react-in-jsx-scope": "off",
+      "react/prop-types": "off",
+      "react-hooks/exhaustive-deps": "off",
+      "space-before-function-paren": "off",
+      "@next/next/no-img-element": "off" // needed to allow images with width = 100%
+  },
+  "settings": {
+      "react": {
+          "version": "detect"
+      }
+  }
 }

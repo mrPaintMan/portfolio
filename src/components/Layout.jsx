@@ -1,8 +1,8 @@
-import Head from "next/head";
-import { Inter } from "next/font/google";
-import styles from "@/styles/layout.module.css";
+import Head from 'next/head'
+import { Inter } from 'next/font/google'
+import styles from '@/styles/layout.module.css'
 
-const inter = Inter({ subsets: ["latin"], weight: ['300'] });
+const inter = Inter({ subsets: ['latin'], weight: ['300'] })
 
 export default function Layout({ title, children, className }) {
   return (

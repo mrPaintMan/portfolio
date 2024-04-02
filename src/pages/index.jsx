@@ -1,11 +1,9 @@
-import Contact from "@/components/Contact";
-import Experiences from "@/components/Experiences";
-import Head from "next/head";
-import Image from "next/image";
-import Link from "next/link";
-import ProfilePic from '@/../public/maskedPic.png'
-import Projects from "@/components/Projects";
-import styles from "@/styles/Home.module.css";
+import Contact from '@/components/Contact'
+import Experiences from '@/components/Experiences'
+import Image from 'next/image'
+import Link from 'next/link'
+import Projects from '@/components/Projects'
+import styles from '@/styles/Home.module.css'
 
 export default function Home() {
   return (
@@ -43,11 +41,9 @@ export default function Home() {
       <Projects className={styles.section} id="projects" />
       <Contact className={styles.section} id="contact" />
     </div>
-  );
+  )
 }
 
 export const getServerSideProps = () => {
   return { props: { title: 'Filips Portfolio' } }
 }
-
-

@@ -12,14 +12,14 @@ const companies = [
     name: 'Hitta.se',
     ImageComponent: (props) => (<Image src={hittaSrc} alt='hitta-logo' className={styles.logo} {...props} />),
     duration: '2018 - 2020',
-    text: `I worked as a backend developer between September 2018 and July 2020 at Hitta.se. My role 
+    text: `I worked as a junior backend developer between September 2018 and July 2020 at Hitta.se. My role 
            included development and maintenance of a data warehouse written in .net core, but maintenance 
            of other systems, including their website, could occacionally be assigned to me aswell.
           `
   },
   {
     name: 'Realpal',
-    ImageComponent: (props) => (<Image src={realpalSrc} alt='hitta-logo' className={styles.logo} {...props} />),
+    ImageComponent: (props) => (<Image src={realpalSrc} alt='realpal-logo' className={styles.logo} {...props} />),
     duration: '2021 - ongoing',
     text: `Realpal is a startup I've had the privilage of working with since 2021, mainly with the development 
            of a data warehouse, operations regarding their machine klearning models, and the refinement of 
@@ -28,7 +28,7 @@ const companies = [
   },
   {
     name: 'Datatovalue',
-    ImageComponent: (props) => (<Image src={d2vSrc} alt='hitta-logo' className={styles.logo} {...props} />),
+    ImageComponent: (props) => (<Image src={d2vSrc} alt='d2v-logo' className={styles.logo} {...props} />),
     duration: '2023 - ongoing',
     text: `My bachelor thesis was written together with five other undergraduates regarding a project conducted for 
            Datatovalue. From the summer 2023 and onwards I have been working with the company as their lead developer, 
@@ -38,7 +38,7 @@ const companies = [
   },
   {
     name: 'Uppsala University',
-    ImageComponent: (props) => (<Image src={uppsalaSrc} alt='hitta-logo' {...props} />),
+    ImageComponent: (props) => (<Image src={uppsalaSrc} alt='uppsala-logo' {...props} />),
     duration: '2023',
     text: `During the autumn of 2023 I had the role of teaching assistant in two courses at Uppsala University. 
            The first course, Imperative and Object Oriented Programming Methodology, covered C and Java thoroughly. 
