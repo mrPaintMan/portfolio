@@ -32,6 +32,10 @@
   cursor: pointer;
 }
 
+.listItem:hover {
+  background-color: #9a9a9a;
+}
+
 .selected {
   display: flex;
   align-items: center;
