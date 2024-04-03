@@ -1,4 +1,44 @@
 .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.images {
+  flex: 70%;
   width: 100%;
-  height: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.info {
+  flex: 30%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 14px;
+  font-weight: 400;
+  padding-right: 40px;
+  padding-left: 10px;
+}
+
+.text {
+  width: 60%;
+  text-align: start;
+}
+
+.btn {
+  padding: 8px 20px;
+  background-color: #FF981F;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn:hover {
+  background-color: #fbaf58;
 }

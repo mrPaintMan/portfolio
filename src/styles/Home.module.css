@@ -47,7 +47,10 @@
   margin: 0px 15px;
   min-width: 120px;
   text-align: center;
+}
 
+.btn:hover {
+  background-color: #fbaf58;
 }
 
 .headerp {

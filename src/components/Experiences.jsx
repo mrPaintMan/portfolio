@@ -22,7 +22,7 @@ const companies = [
     ImageComponent: (props) => (<Image src={realpalSrc} alt='realpal-logo' className={styles.logo} {...props} />),
     duration: '2021 - ongoing',
     text: `Realpal is a startup I've had the privilage of working with since 2021, mainly with the development 
-           of a data warehouse, operations regarding their machine klearning models, and the refinement of 
+           of a data warehouse, operations regarding their machine learning models, and the refinement of 
            existing data pipelines.
           `
   },
