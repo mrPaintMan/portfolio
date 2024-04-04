@@ -1,7 +1,45 @@
 .container {
+  display: flex;
+  flex-direction: column;
+}
+
+
+.images {
+  flex: 70%;
+  display: flex;
+  flex-direction: row;
   width: 100%;
-  height: 100%;
+  justify-content: center;
+}
+
+
+.info {
+  flex: 30%;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 40px;
+  padding-left: 10px;
+}
+
+.text {
+  width: 60%;
+  text-align: start;
+}
+
+.btn {
+  padding: 8px 20px;
+  background-color: #FF981F;
   display: flex;
   justify-content: center;
   align-items: center;
+  border: none;
+  color: white;
+  font-size: 14px;
+}
+
+.btn:hover {
+  background-color: #fbaf58;
 }

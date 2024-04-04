@@ -4,4 +4,29 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: row;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.text {
+  width: 70%;
+  margin-bottom: 20px;
+}
+
+.btn {
+  padding: 8px 20px;
+  background-color: #FF981F;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn:hover {
+  background-color: #fbaf58;
 }
