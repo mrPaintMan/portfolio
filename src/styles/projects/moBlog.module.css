@@ -29,7 +29,15 @@
   text-align: start;
 }
 
+.btns {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 .btn {
+  margin-bottom: 10px;
   padding: 8px 20px;
   background-color: #FF981F;
   display: flex;

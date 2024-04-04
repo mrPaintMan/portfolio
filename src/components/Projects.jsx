@@ -11,27 +11,27 @@ import { useState } from 'react'
 const projects = [
   {
     name: 'Quizzy',
-    render: (props) => <Quizzy url='/projects/quizzy' {...props} />
+    render: (props) => <Quizzy {...props} />
   },
   {
     name: 'MoBlog',
-    render: (props) => <MoBlog url='/projects/moblog' {...props} />
+    render: (props) => <MoBlog {...props} />
   },
   {
     name: 'Plingplong',
-    render: (props) => <Plingplong url='/projects/plingplong' {...props} />
+    render: (props) => <Plingplong {...props} />
   },
   {
     name: 'Hackathons',
-    render: (props) => <Hackathons url='/projects/hackathons' {...props} />
+    render: (props) => <Hackathons {...props} />
   },
   {
     name: 'Mine Sweeper',
-    render: (props) => <Minesweeper url='/projects/minesweeper' {...props} />
+    render: (props) => <Minesweeper {...props} />
   },
   {
     name: 'Screen player',
-    render: (props) => <ScreenPlayer url='/projects/screenplayer' {...props} />
+    render: (props) => <ScreenPlayer {...props} />
   }
 ]
 

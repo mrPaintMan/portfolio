@@ -6,7 +6,7 @@ import moblog2Src from '@/../public/moblog/moblog2.png'
 import moblog3Src from '@/../public/moblog/moblog3.png'
 import styles from '@/styles/projects/moBlog.module.css'
 
-export default function MoBlog({ url, className, ...props }) {
+export default function MoBlog({ className, ...props }) {
   return (
     <div className={`${styles.container} ${className}`} {...props}>
       <div className={styles.images}>
@@ -22,7 +22,12 @@ export default function MoBlog({ url, className, ...props }) {
           development posts available. This project was developed in Swift and uses Apple&apos;s APNS servers for push
           notifications.
         </p>
-        <Link href={url} className={styles.btn}>Read more</Link>
+        <div className={styles.btns}>
+          <Link href={'/projects/moblog'} className={styles.btn}>Read more</Link>
+          <Link href={'https://github.com/mrPaintMan/MoBlog'} target={'_blank'} className={styles.btn}>
+            View on Github
+          </Link>
+        </div>
       </div>
     </div>
   )

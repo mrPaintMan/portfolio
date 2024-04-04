@@ -3,7 +3,7 @@ import Link from 'next/link'
 import plingplongSrc from '@/../public/plingplong/plingplong1.png'
 import styles from '@/styles/projects/plingplong.module.css'
 
-export default function Plingplong({ url, className, ...props }) {
+export default function Plingplong({ className, ...props }) {
   return (
     <div className={`${styles.container} ${className}`} {...props}>
       <Image className={styles.image} src={plingplongSrc} alt='plingplong-image' height={550} />
@@ -13,7 +13,7 @@ export default function Plingplong({ url, className, ...props }) {
           attention. In a way, the project was a mistake, due to the abusive nature of this feature, but not a
           mistake I regret making! This application utilizes Apple&apos;s APNS servers to enable push notifications.
         </p>
-        <Link href={url} className={styles.btn}>Read more</Link>
+        <Link href={'https://github.com/mrPaintMan/plingplong'} className={styles.btn}>View on Github</Link>
       </div>
     </div>
   )
