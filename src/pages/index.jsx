@@ -45,5 +45,5 @@ export default function Home() {
 }
 
 export const getServerSideProps = () => {
-  return { props: { title: 'Filips Portfolio' } }
+  return { props: { title: 'Filips Portfolio', googleAnalyticsId: process.env.GOOGLE_ANALYTICS_MEASUREMENT_ID } }
 }
